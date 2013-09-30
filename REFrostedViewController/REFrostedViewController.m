@@ -130,7 +130,7 @@
 {
     self.visible = YES;
     self.imageViewWidth = 0;
-    self.imageView.image = [[controller.view re_screenshot] re_applyBlurWithRadius:self.blurRadius tintColor:self.blurTintColor saturationDeltaFactor:self.blurSaturationDeltaFactor maskImage:nil];
+    self.imageView.image = [controller.view re_screenshot];// re_applyBlurWithRadius:self.blurRadius tintColor:self.blurTintColor saturationDeltaFactor:self.blurSaturationDeltaFactor maskImage:nil];
     self.view.frame = controller.view.bounds;
     [self addToParentViewController:controller callingAppearanceMethods:YES];
     
@@ -180,7 +180,7 @@
 {
     UIView *superview = self.view.superview;
     [self.view removeFromSuperview];
-    self.imageView.image = [[superview re_screenshot] re_applyBlurWithRadius:self.blurRadius tintColor:self.blurTintColor saturationDeltaFactor:self.blurSaturationDeltaFactor maskImage:nil];
+    self.imageView.image = [superview re_screenshot];// re_applyBlurWithRadius:self.blurRadius tintColor:self.blurTintColor saturationDeltaFactor:self.blurSaturationDeltaFactor maskImage:nil];
     [superview addSubview:self.view];
 }
 
