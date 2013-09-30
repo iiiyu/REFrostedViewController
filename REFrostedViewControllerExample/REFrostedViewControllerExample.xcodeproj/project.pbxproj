@@ -27,6 +27,7 @@
 		3010B58317E9FB34006791FB /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010B58017E9FB34006791FB /* UIView+REFrostedViewController.m */; };
 		307EEC5C17EB27F00050EE33 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307EEC5B17EB27F00050EE33 /* Accelerate.framework */; };
 		307EEC5E17EB27F50050EE33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307EEC5D17EB27F50050EE33 /* QuartzCore.framework */; };
+		5B32A58417F971E9002FED13 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B32A58317F971E9002FED13 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		3010B58017E9FB34006791FB /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
 		307EEC5B17EB27F00050EE33 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		307EEC5D17EB27F50050EE33 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5B32A58317F971E9002FED13 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		3010B57A17E9FB34006791FB /* REFrostedViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5B32A58317F971E9002FED13 /* bg.png */,
 				3010B57B17E9FB34006791FB /* REFrostedViewController.h */,
 				3010B57C17E9FB34006791FB /* REFrostedViewController.m */,
 				3010B57D17E9FB34006791FB /* UIImage+REFrostedViewController.h */,
@@ -261,6 +264,7 @@
 			files = (
 				3010B57917E9FAFA006791FB /* avatar@2x.jpg in Resources */,
 				3010B54717E9FA67006791FB /* InfoPlist.strings in Resources */,
+				5B32A58417F971E9002FED13 /* bg.png in Resources */,
 				3010B54F17E9FA67006791FB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

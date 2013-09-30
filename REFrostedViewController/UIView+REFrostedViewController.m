@@ -29,17 +29,7 @@
 
 - (UIImage *)re_screenshot
 {
-    UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, [UIScreen mainScreen].scale);
-    
-    if ([self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]) {
-        [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:YES];
-    } else {
-        [self.layer renderInContext:UIGraphicsGetCurrentContext()];
-    }
-    
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    return image;
+    return [UIImage imageNamed:@"bg"];
 }
 
 @end
